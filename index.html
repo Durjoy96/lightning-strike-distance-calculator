@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lightning strike distance calculator</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://kit.fontawesome.com/4a82536f30.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="logo-section">
+            <img src="assets/img/logo.png" alt="logo" class="logo-img">
+            <h2 class="logo-text">ThunderSteps</h2>
+        </div>
+    </header>
+
+    <div class="section">
+        <div class="wrapper">
+            <h1 class="tagline">Thunder? Know How Far <span>in Steps</span></h1>
+            <p class="description">Our lightning distance calculator helps you determine how far the strike is in
+                footsteps
+            </p>
+
+            <div class="user-input">
+                <label for="inputNum">How many seconds did it take to hear thunder after seeing lightning?</label>
+                <div class="input-span">
+                    <input type="number" name="" id="inputNum" placeholder="Example: 5">
+                    <span>Sec</span>
+                </div>
+                <div class="min-max-sec">Please enter a value between 0 and 900 seconds (15 minutes)<span>Steps</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="output-card">
+            <div class="danger-level-with-color">
+                <div class="low-danger">
+                    <div class="color-box"></div><span>Low Danger</span>
+                </div>
+                <div class="moderate-danger">
+                    <div class="color-box"></div><span>Moderate Danger</span>
+                </div>
+                <div class="high-danger">
+                    <div class="color-box"></div><span>High Danger</span>
+                </div>
+                <div class="immediate-danger">
+                    <div class="color-box"></div><span>Immediate Danger</span>
+                </div>
+            </div>
+
+            <div class="loader">
+                <p class="output">--<span>Steps</span></p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="assets/script/script.js"></script>
+</body>
+
+</html>
